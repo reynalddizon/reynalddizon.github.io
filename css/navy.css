@@ -38,7 +38,7 @@
 ================================================== */
 
 body {
-	color:darkgray;
+	color:#262626;
 	font-weight: 100;
 	background: #fff;
 }
@@ -48,14 +48,14 @@ blockquote small {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color:darkgray;
+	color:#262626;
 }
 
 h2 {
- color:darkgray;	
+ color:#262626;	
 }
 
-h2 i {color:darkgray}
+h2 i {color:#262626}
 h2.subTitle:after, h1.noSubtitle:after{
 	background-color:#162f43;
 }
@@ -108,14 +108,14 @@ ul.iconsList li a {
 	color:#ffffff
 }
 ul.iconsList li a:hover, ul.iconsList i {
-	color:darkgray
+	color:#262626
 }
 
 /*** buttons ***/
 .btn {
 	background: transparent;
-	color:gainsboro;
-	border:1px solid gainsboro;
+	color:#262626;
+	border:1px solid #262626;
 }
 
 .btn-filter {
@@ -137,15 +137,15 @@ ul.iconsList li a:hover, ul.iconsList i {
 
 .btn:hover {
 	color:#ffffff;
-	border-color:darkgray;
+	border-color:#262626;
 	text-shadow:none;
-	background:darkgray
+	background:#262626
 }
 .btn-primary {
-	background: darkgray;
+	background: #262626;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-	background: darkgray;
+	background: #262626;
 }
 .btn-info {
 	background: #ffffff;
@@ -192,7 +192,7 @@ ul.iconsList li a:hover, ul.iconsList i {
 	color:#444;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background: darkgray;
+	background: #262626;
 	color:#fff;
 }
 
@@ -291,7 +291,7 @@ nav#filter a {
 	color:#555;
 }
 nav#filter a:hover, nav#filter a.current {
-	background-color:darkgray;
+	background-color:#262626;
 	color:#fff;
 }
 li.filterTitle {
@@ -405,7 +405,7 @@ border:none}
 .color1 h1, .color1 h2, .color1 h3, .color1 h4, .color1 blockquote, .color1 a{
 	color:#444;
 }
-.color1 a.btn{color:darkgray;}
+.color1 a.btn{color:#262626;}
 .color1 a.btn:hover{color:white;}
 
 /*color4*/
@@ -637,5 +637,12 @@ background: #333333;
 
 .brown-border {
   border-color: #924e31 !important; }
+  
+
+.bigTitle {
+	color: #31bbc1;
+	font-size: 2.2em;
+	padding-top:30px;
+}
   
   
